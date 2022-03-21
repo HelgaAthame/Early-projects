@@ -1,0 +1,87 @@
+body {
+	background-color: #111;
+}
+
+#athameCalculator {
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 562.5px;*/
+	text-align: center;
+	height: 98vh;
+	/*max-height: 1000px;*/
+
+}
+
+table {
+	width: 100%;
+	height: 100%;
+}
+
+td {
+	max-width:25%;
+}
+
+#pastOperations table td{
+	color: ;
+	text-align:right;
+	padding-right: 7%;
+}
+
+#athameCalculator .twoPartBlock{
+	height: 49.5%;
+	display: flex;
+	flex-direction: column;
+}
+
+#athameCalculator .twoPartBlock .button {
+	font-size: 200%;
+	width: 100%;
+	border: 0px;
+	height: 100%;
+}
+
+#athameCalculator .twoPartBlock .buttonNumber {
+	color: #fff;
+	background-color: #111;
+}
+
+#athameCalculator .twoPartBlock .buttonOperation{
+	color: #1b1 ;
+	background-color: #111;
+}
+
+#athameCalculator .separator {
+	background-color: #111;
+	color: #111;
+	height: 1%;;
+
+}
+
+#athameCalculator .twoPartBlock #pastOperations{
+	overflow: hidden;
+	text-overflow: clip;	
+	background-color: ;
+	height: 100%;
+	color: #777;
+	font-size: 150%;
+	width: 100%;
+	flex-grow: 3;
+}
+
+#athameCalculator .twoPartBlock #currentValue{
+	overflow: hidden;
+	text-overflow: clip;
+	color: #FFF;
+	background-color: ;
+	font-size: 400%;
+	text-align: right;
+	padding-right:7%;
+	height: 80px;
+	width: 93%;
+	max-width: 93%;
+}
+
+
+
+
+
